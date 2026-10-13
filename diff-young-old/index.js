@@ -2,7 +2,7 @@ function differenceInAges(ages){
         const lowest = Math.min(...ages);
         const highest = Math.max(...ages);
         const difference = Math.max(...ages) - Math.min(...ages);  
-  console.log([lowest, highest, difference])
+        return [lowest, highest, difference]
 }
 
 differenceInAges([82, 15, 6, 38, 35]);
